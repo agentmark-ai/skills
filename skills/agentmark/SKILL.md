@@ -1,6 +1,7 @@
 ---
 name: agentmark
 description: "Build, debug, and ship AgentMark prompts, datasets, experiments, and evals. TRIGGER when: working with `.prompt.mdx` files, `agentmark.json`, `agentmark.client.ts`, `agentmark_client.py`, `.agentmark/`, or imports from `@agentmark-ai/*`; user runs or asks about `agentmark <cmd>` / `npx agentmark <cmd>` (`dev`, `run-prompt`, `run-experiment`, `build`, `generate-types`, `generate-schema`, `link`, `login`, `pull-models`, `api`); user mentions AgentMark or asks about prompt versioning, dataset experiments, prompt evaluations, prompt deployments, or trace observability in an AgentMark project. SKIP: provider-neutral prompt code with no AgentMark markers; LangChain / LlamaIndex / raw OpenAI / Anthropic SDK code; questions about prompt engineering or LLM observability in general with no AgentMark context; questions about competing platforms (Langfuse, LangSmith, Phoenix, Braintrust, Traceloop)."
+license: AGPL-3.0-or-later
 ---
 
 # AgentMark

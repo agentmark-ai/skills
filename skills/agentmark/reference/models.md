@@ -200,9 +200,9 @@ chat-bison@001
 chat-bison@002
 code-bison
 code-bison-32k@002
+code-bison32k
 code-bison@001
 code-bison@002
-code-bison32k
 code-gecko
 code-gecko-latest
 code-gecko@001
@@ -290,10 +290,10 @@ medlm-medium
 mistral-ocr-2505
 search_api
 text-bison
-text-bison@001
-text-bison@002
 text-bison32k
 text-bison32k@002
+text-bison@001
+text-bison@002
 text-unicorn
 text-unicorn@001
 vertex_ai/claude-3-5-haiku
@@ -328,8 +328,8 @@ vertex_ai/claude-sonnet-4-6
 vertex_ai/claude-sonnet-4-6@default
 vertex_ai/claude-sonnet-4@20250514
 vertex_ai/codestral-2
-vertex_ai/codestral-2@001
 vertex_ai/codestral-2501
+vertex_ai/codestral-2@001
 vertex_ai/codestral@2405
 vertex_ai/codestral@latest
 vertex_ai/deepseek-ai/deepseek-r1-0528-maas
