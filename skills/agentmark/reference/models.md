@@ -190,7 +190,7 @@ us/claude-opus-4-6
 
 ## Google (`google`)
 
-196 canonical chat-mode models.
+197 canonical chat-mode models.
 
 ```
 chat-bison
@@ -263,6 +263,7 @@ gemini-3.1-flash-lite
 gemini-3.1-flash-lite-preview
 gemini-3.1-pro-preview
 gemini-3.1-pro-preview-customtools
+gemini-3.5-flash
 gemini-live-2.5-flash-preview-native-audio-09-2025
 gemini-pro
 gemini-pro-experimental
