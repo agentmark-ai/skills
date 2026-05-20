@@ -1,0 +1,21 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "agentmark",
+  "owner": {
+    "name": "AgentMark",
+    "url": "https://agentmark.co"
+  },
+  "metadata": {
+    "description": "Official AgentMark agent skill for Claude Code. Auto-generated from agentmark-ai/agentmark.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "agentmark",
+      "description": "Build, debug, and ship AgentMark prompts, datasets, experiments, and evals. Use when working with .prompt.mdx files, agentmark.json, agentmark.client.ts, agentmark_client.py, .agentmark/, or imports from @agentmark-ai/*; user runs or asks about npx agentmark <cmd>; user mentions AgentMark or asks about prompt versioning, dataset experiments, prompt evaluations, prompt deployments, or trace observability in an AgentMark project.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/agentmark"]
+    }
+  ]
+}

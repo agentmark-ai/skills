@@ -1,6 +1,6 @@
 {
   "name": "@agentmark-ai/skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Claude Code / cross-tool agent skill for AgentMark — CLI commands, prompt authoring, datasets, experiments, evals, and git-based deploys.",
   "private": false,
   "license": "AGPL-3.0-or-later",
@@ -24,6 +24,7 @@
   ],
   "files": [
     "skills",
+    ".claude-plugin",
     "AGENTS.md",
     "README.md",
     "LICENSE",

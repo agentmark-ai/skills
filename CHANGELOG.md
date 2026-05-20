@@ -6,6 +6,20 @@ This repository is auto-mirrored from [agentmark-ai/agentmark](https://github.co
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html), with the caveat that the skill's behavior depends on the underlying model — a "no breaking changes" release can still drift if Anthropic releases a model that interprets the same description differently.
 
+## [0.2.0] - 2026-05-20
+
+### Added
+
+- **Native Claude Code plugin support.** `.claude-plugin/marketplace.json` declares this repo as a marketplace with a single `agentmark` plugin. Users on Claude Code 2.x+ can install via:
+
+  ```bash
+  claude
+  > /plugin marketplace add agentmark-ai/skills
+  > /plugin install agentmark
+  ```
+
+  This is an alternative distribution surface alongside `npx skills add agentmark-ai/skills`, mirroring the pattern used by `supabase/agent-skills` and `cloudflare/skills`. Verified schema against both reference repos.
+
 ## [0.1.0] - 2026-05-20
 
 ### Added
@@ -25,4 +39,5 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Thi
 
 Source commit: agentmark-ai/agentmark@(seeded from initial publish).
 
+[0.2.0]: https://github.com/agentmark-ai/skills/releases/tag/v0.2.0
 [0.1.0]: https://github.com/agentmark-ai/skills/releases/tag/v0.1.0

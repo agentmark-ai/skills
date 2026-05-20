@@ -4,17 +4,33 @@ Claude Code / agent skill that teaches AI agents how to use [AgentMark](https://
 
 ## Install
 
+Pick whichever fits your tooling:
+
+**Universal (`npx skills`, cross-tool — Claude Code, Codex, Cursor, GitHub Copilot, Amp, Antigravity, +others):**
+
 ```bash
 npx skills add agentmark-ai/skills
 ```
 
-This copies `skills/agentmark/SKILL.md` (and its bundled workflow + reference files) into your local `~/.claude/skills/agentmark/`. Claude Code auto-discovers it on the next session and invokes it when AgentMark context appears (`.prompt.mdx` files, `agentmark.json`, `@agentmark-ai/*` imports, or explicit mentions of AgentMark / CLI commands).
+Files land in `./.agents/skills/agentmark/` with symlinks into per-tool paths automatically.
 
-For the alternative URL-based install via [Mintlify's well-known skills discovery](https://www.mintlify.com/blog/skills-discovery-from-any-url):
+**Native Claude Code plugin marketplace:**
+
+```bash
+claude
+> /plugin marketplace add agentmark-ai/skills
+> /plugin install agentmark
+```
+
+This uses Claude Code's built-in plugin system (`.claude-plugin/marketplace.json` in this repo declares the marketplace).
+
+**Mintlify well-known discovery (for any AgentMark docs URL):**
 
 ```bash
 npx skills add docs.agentmark.co
 ```
+
+Once installed, Claude Code (or any agentskills.io-compatible tool) auto-discovers the skill at session start and invokes it when AgentMark context appears (`.prompt.mdx` files, `agentmark.json`, `@agentmark-ai/*` imports, or explicit mentions of AgentMark / CLI commands).
 
 ## What's in this repo
 
