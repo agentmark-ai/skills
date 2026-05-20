@@ -1,0 +1,32 @@
+{
+  "name": "@agentmark-ai/skills",
+  "version": "0.1.0",
+  "description": "Claude Code / cross-tool agent skill for AgentMark — CLI commands, prompt authoring, datasets, experiments, evals, and git-based deploys.",
+  "private": false,
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://docs.agentmark.co",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentmark-ai/skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agentmark-ai/agentmark/issues",
+    "comment": "File issues against the source repo (agentmark-ai/agentmark), not this mirror."
+  },
+  "keywords": [
+    "agentmark",
+    "claude-code",
+    "agent-skill",
+    "agents.md",
+    "agentskills.io",
+    "llm-tooling",
+    "prompt-engineering"
+  ],
+  "files": [
+    "skills",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
